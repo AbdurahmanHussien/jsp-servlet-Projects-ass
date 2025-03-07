@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ADD Item</title>
+  <link rel="stylesheet" href="css/add-item.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="text">
+    Add Item
+  </div>
+  <form action="ItemController" method="post">
+    <div class="form-row">
+      <div class="input-data">
+        <label>Name</label>
+      
+        <input type="text" required name="itemName">
+        <div class="underline"></div>
+      </div>
+      <div class="input-data">
+        <label>PRICE</label>
+      
+        <input type="text" required name="itemPrice">
+        <div class="underline"></div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="input-data">
+       <label>TOTAL NUMBER</label>
+      
+        <input type="text" required  name="itemTotalNumber">
+        <div class="underline"></div>
+      </div>
+    </div>
+    <input type="hidden" required  name="action" value="addItem">
+    <input type="submit" value="Add" class="button">
+  </form>
+
+  <p class="back">
+    <a href="ItemController?action=loadItems" >Back to items</a>
+  </p>
+</div>
+<!-- partial -->
+
+</body>
+</html>
