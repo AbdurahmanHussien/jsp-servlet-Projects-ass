@@ -1,7 +1,7 @@
 
 # JSP and Servlet projects
 
-[click here to see the project video] (https://drive.google.com/file/d/1U2e-FHaM7zRqjxx01FzRJsg_U3iVWFQF/view?usp=drive_link)
+[click here to see the project video](https://drive.google.com/file/d/1U2e-FHaM7zRqjxx01FzRJsg_U3iVWFQF/view?usp=drive_link)
 
 Description
 
